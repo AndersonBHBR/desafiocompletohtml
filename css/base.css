@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-image: url('../images/fundo_geral.jpg');
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-image: url('../images/fundo_menu.jpg');
+    padding: 10px 20px 0px;
+}
+
+.header {
+    background-image: url('../images/fundo_principal.jpg');
+    min-height: 150px;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.footer {
+    background-image: url('../images/fundo_principal.jpg');
+    min-height: 150px;
+    color: #ffffff;
+}
+
+.imagem-centralizada {
+    display: block;
+    margin: 0 auto;
+}
